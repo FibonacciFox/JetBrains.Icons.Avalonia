@@ -1,0 +1,12 @@
+<icons:JetBrainsIconStyles xmlns="https://github.com/avaloniaui"
+                          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                          xmlns:icons="clr-namespace:JetBrains.Icons.Avalonia"
+                          x:Class="JetBrains.Icons.Avalonia.JetBrainsIconStyles">
+    <icons:JetBrainsIconStyles.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceInclude Source="avares://JetBrains.Icons.Avalonia/JetBrainsIcon.axaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </icons:JetBrainsIconStyles.Resources>
+</icons:JetBrainsIconStyles>
