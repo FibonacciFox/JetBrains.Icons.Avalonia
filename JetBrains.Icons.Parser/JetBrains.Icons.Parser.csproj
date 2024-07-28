@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <AvaloniaResource Include="Icons\addFile.svg" />
+      <AvaloniaResource Include="Icons\addFile_dark.svg" />
+      <AvaloniaResource Include="Icons\propertyRead.svg" />
+      <AvaloniaResource Include="Icons\propertyReadStatic.svg" />
+      <AvaloniaResource Include="Icons\warningDialog.svg" />
+      <AvaloniaResource Include="Icons\warningDialog_dark.svg" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\JetBrains.Icons\JetBrains.Icons.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -9,5 +9,10 @@ namespace JetBrains.Icons;
 /// </remarks>
 public enum JetBrainsIconKind
 {
-    Abacus,
+    warningDialog,
+    propertyReadStatic,
+    propertyRead,
+    warningDialog_dark,
+    addFile,
+    addFile_dark
 }

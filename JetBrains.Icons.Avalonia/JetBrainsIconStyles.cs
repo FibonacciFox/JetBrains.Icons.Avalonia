@@ -8,7 +8,10 @@ namespace JetBrains.Icons.Avalonia;
 /// </summary>
 public sealed class JetBrainsIconStyles : Styles {
     /// <summary>
-    /// Initializes a new instance of the <see cref="JetBrainsThemeBase"/> class.
+    /// Initializes a new instance of the <see>
+    ///     <cref>JetBrainsThemeBase</cref>
+    /// </see>
+    /// class.
     /// </summary>
     /// <param name="serviceProvider">The parent's service provider.</param>
     public JetBrainsIconStyles(IServiceProvider? serviceProvider) {
