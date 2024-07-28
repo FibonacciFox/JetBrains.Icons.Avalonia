@@ -20,4 +20,8 @@
       <ProjectReference Include="..\JetBrains.Icons\JetBrains.Icons.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Icons\Test\" />
+    </ItemGroup>
+
 </Project>

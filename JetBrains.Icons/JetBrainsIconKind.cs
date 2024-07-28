@@ -1,11 +1,12 @@
-namespace JetBrains.Icons;
-
-public enum JetBrainsIconKind
+namespace JetBrains.Icons
 {
-    warningDialog,
-    propertyReadStatic,
-    propertyRead,
-    warningDialog_dark,
-    addFile,
-    addFile_dark
+    public enum JetBrainsIconKind
+    {
+        warningDialog,
+        propertyReadStatic,
+        propertyRead,
+        warningDialog_dark,
+        addFile,
+        addFile_dark,
+    }
 }
