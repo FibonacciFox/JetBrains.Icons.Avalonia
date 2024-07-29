@@ -1,6 +1,7 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:avalonia="clr-namespace:JetBrains.Icons.Avalonia">
+                    xmlns:avalonia="clr-namespace:JetBrains.Icons.Avalonia"
+                    xmlns:skia="clr-namespace:Avalonia.Svg.Skia;assembly=Avalonia.Svg.Skia">
     <avalonia:JetBrainsIconKindToViewboxConverter x:Key="ViewboxConverter" />
 
     <ControlTheme x:Key="{x:Type avalonia:JetBrainsIcon}" TargetType="avalonia:JetBrainsIcon">
@@ -13,7 +14,9 @@
                             BorderBrush="{TemplateBinding BorderBrush}"
                             BorderThickness="{TemplateBinding BorderThickness}">
                         <Viewbox>
-                            <ContentControl Content="{TemplateBinding Kind, Converter={StaticResource ViewboxConverter}}" />
+                            <skia:Svg Path="{TemplateBinding Kind, Converter={StaticResource ViewboxConverter}}" 
+                                      Width="{TemplateBinding Width}" 
+                                      Height="{TemplateBinding Height}" />
                         </Viewbox>
                     </Border>
                 </ControlTemplate>

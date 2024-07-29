@@ -1,51 +1,28 @@
-using Avalonia;
-using Avalonia.Controls;
 using Avalonia.Data.Converters;
-using Avalonia.Media;
+using System;
 using System.Globalization;
 
-namespace JetBrains.Icons.Avalonia;
-
-public class JetBrainsIconKindToViewboxConverter : IValueConverter
+namespace JetBrains.Icons.Avalonia
 {
-    public object Convert(object? value, Type targetType, object? parameter, CultureInfo culture)
+    public class JetBrainsIconKindToViewboxConverter : IValueConverter
     {
-        if (value is JetBrainsIconKind kind)
+        public object Convert(object? value, Type targetType, object? parameter, CultureInfo culture)
         {
-            // Получаем данные иконки из провайдера
-            var dataProvider = JetBrainsIconDataProvider.Instance;
-            var iconDataList = dataProvider.ProvideData(kind);
-
-            // Создаем Viewbox и Grid для иконки
-            var viewbox = new Viewbox();
-            var grid = new Grid();
-
-            foreach (var iconData in iconDataList)
+            if (value is JetBrainsIconKind kind)
             {
-                // Создаем Path элемент для каждого пути иконки
-                var path = new global::Avalonia.Controls.Shapes.Path
-                {
-                    Data = Geometry.Parse(iconData.Data),
-                    Fill = iconData.Fill != null ? new SolidColorBrush(Color.Parse(iconData.Fill)) : null,
-                    Opacity = iconData.Opacity
-                };
+                var dataProvider = JetBrainsIconDataProvider.Instance;
+                var iconDataList = dataProvider.ProvideData(kind);
 
-                // Если указана трансформация, применяем её
-                if (iconData.Transform.HasValue)
+                if (iconDataList.Count > 0)
                 {
-                    path.RenderTransform = new TranslateTransform(iconData.Transform.Value.X, iconData.Transform.Value.Y);
+                    return iconDataList[0].Resource;
                 }
-
-                grid.Children.Add(path);
             }
 
-            viewbox.Child = grid;
-            return viewbox;
+            return null;
         }
 
-        return AvaloniaProperty.UnsetValue;
+        public object ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture) =>
+            throw new NotSupportedException();
     }
-
-    public object ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture) =>
-        throw new NotSupportedException();
 }

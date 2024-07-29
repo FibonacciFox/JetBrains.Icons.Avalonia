@@ -6,8 +6,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JetBrains.Icons.Avalonia", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JetBrains.Icons.Avalonia.Demo", "JetBrains.Icons.Avalonia.Demo\JetBrains.Icons.Avalonia.Demo.csproj", "{CA284725-C0AE-4033-A565-4C1FCE24E56C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JetBrains.Icons.Parser", "JetBrains.Icons.Parser\JetBrains.Icons.Parser.csproj", "{1BEF4EBF-17F4-4F10-BFD6-4254FE00AE79}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +24,5 @@ Global
 		{CA284725-C0AE-4033-A565-4C1FCE24E56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA284725-C0AE-4033-A565-4C1FCE24E56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA284725-C0AE-4033-A565-4C1FCE24E56C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1BEF4EBF-17F4-4F10-BFD6-4254FE00AE79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1BEF4EBF-17F4-4F10-BFD6-4254FE00AE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1BEF4EBF-17F4-4F10-BFD6-4254FE00AE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1BEF4EBF-17F4-4F10-BFD6-4254FE00AE79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
