@@ -16,7 +16,7 @@
                         <Viewbox>
                             <skia:Svg Path="{TemplateBinding Kind, Converter={StaticResource ViewboxConverter}}" 
                                       Width="{TemplateBinding Width}" 
-                                      Height="{TemplateBinding Height}" />
+                                      Height="{TemplateBinding Height}"/>
                         </Viewbox>
                     </Border>
                 </ControlTemplate>

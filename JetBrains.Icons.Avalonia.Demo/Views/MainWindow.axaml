@@ -15,10 +15,9 @@
              to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
         <vm:MainWindowViewModel/>
     </Design.DataContext>
-
     <!--  <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/> -->
      <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-         <avalonia:JetBrainsIcon Kind="propertyReadStatic" Width="32" Height="32" /> 
+         <avalonia:JetBrainsIcon Kind="PluginUpdateDark" Width="64" Height="64" /> 
     </StackPanel>
    
     

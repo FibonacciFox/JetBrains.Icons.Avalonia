@@ -30,11 +30,27 @@ public partial class JetBrainsIconDataProvider
             {
                 new("avares://JetBrains.Icons/Assets/Icons/addFile.svg")
             },
+            JetBrainsIconKind.addFileDark => new List<JetBrainsIconData>
+            {
+                new("avares://JetBrains.Icons/Assets/Icons/addFile_dark.svg")
+            },
             JetBrainsIconKind.propertyReadStatic => new List<JetBrainsIconData>
             {
                 new("avares://JetBrains.Icons/Assets/Icons/propertyReadStatic.svg")
             },
-            // Добавьте остальные иконки здесь
+            JetBrainsIconKind.propertyRead => new List<JetBrainsIconData>
+            {
+                new("avares://JetBrains.Icons/Assets/Icons/propertyRead.svg")
+            },
+            JetBrainsIconKind.warningDialog => new List<JetBrainsIconData>
+            {
+                new("avares://JetBrains.Icons/Assets/Icons/warningDialog.svg")
+            },
+            JetBrainsIconKind.PluginUpdateDark => new List<JetBrainsIconData>
+            {
+                new("avares://JetBrains.Icons/Assets/Icons/General/pluginUpdate_dark.svg")
+            },
+            
             _ => new List<JetBrainsIconData>()
         };
     }
