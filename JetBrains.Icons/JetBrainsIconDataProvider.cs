@@ -18,21 +18,3 @@ public partial class JetBrainsIconDataProvider
     public static List<JetBrainsIconData> GetData(JetBrainsIconKind kind) => Instance.ProvideData(kind);
     public virtual partial List<JetBrainsIconData> ProvideData(JetBrainsIconKind kind);
 }
-
-public partial class JetBrainsIconDataProvider
-{
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
-    public virtual partial List<JetBrainsIconData> ProvideData(JetBrainsIconKind kind)
-    {
-        return kind switch
-        {
-            JetBrainsIconKind.Add => new List<JetBrainsIconData>
-            {
-                new("avares://JetBrains.Icons/Assets/Icons/General/add.svg"),
-                new("avares://JetBrains.Icons/Assets/Icons/General/add_dark.svg")
-            },
-            
-            _ => new List<JetBrainsIconData>()
-        };
-    }
-}

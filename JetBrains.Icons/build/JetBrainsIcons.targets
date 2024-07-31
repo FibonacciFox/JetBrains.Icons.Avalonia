@@ -1,9 +1,0 @@
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-
-    <UsingTask TaskName="JetBrainsIcons.RenameSvgFiles" AssemblyFile="$(MSBuildThisFileDirectory)..\lib\netstandard2.0\JetBrainsIcons.dll" />
-
-    <Target Name="RenameSvgFilesBeforeBuild" BeforeTargets="Build">
-        <PhpSdkSync.RenameSvgFiles SourceDirectory="$(MSBuildProjectDirectory)\Assets" />
-    </Target>
-
-</Project>
