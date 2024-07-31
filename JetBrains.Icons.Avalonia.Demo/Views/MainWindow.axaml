@@ -17,7 +17,7 @@
     </Design.DataContext>
     <!--  <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/> -->
      <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-         <avalonia:JetBrainsIcon Kind="PluginUpdateDark" Width="64" Height="64" /> 
+         <avalonia:JetBrainsIcon Kind="Add" Width="64" Height="64" /> 
     </StackPanel>
    
     
