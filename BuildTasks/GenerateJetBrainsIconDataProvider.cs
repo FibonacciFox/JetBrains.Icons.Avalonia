@@ -30,7 +30,7 @@ namespace BuildTasks
                     })
                     .Select(data => new
                     {
-                        EnumName = data.FileName.Replace("-", "_").Replace(" ", "_"),
+                        EnumName = data.FileName.Replace("-", "_").Replace(" ", "_").Replace("@20x20", "Bold"),
                         FilePath = data.FilePath.Replace(@"\", "/")
                     })
                     .Distinct()

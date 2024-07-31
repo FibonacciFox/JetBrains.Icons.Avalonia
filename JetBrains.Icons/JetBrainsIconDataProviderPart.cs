@@ -63,6 +63,14 @@ namespace JetBrains.Icons
                 {
                     new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/ToolWindows/Build.svg")
                 },
+                JetBrainsIconKind.BuildAutoReloadChanges => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Actions/BuildAutoReloadChanges.svg")
+                },
+                JetBrainsIconKind.BuildAutoReloadChangesDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Actions/BuildAutoReloadChangesDark.svg")
+                },
                 JetBrainsIconKind.BuildDark => new List<JetBrainsIconData>
                 {
                     new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/ToolWindows/BuildDark.svg")
@@ -331,6 +339,30 @@ namespace JetBrains.Icons
                 {
                     new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/ToolWindows/EndpointsDark.svg")
                 },
+                JetBrainsIconKind.Error => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/Error.svg")
+                },
+                JetBrainsIconKind.ErrorDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/ErrorDark.svg")
+                },
+                JetBrainsIconKind.ErrorDialog => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/ErrorDialog.svg")
+                },
+                JetBrainsIconKind.ErrorDialogDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/ErrorDialogDark.svg")
+                },
+                JetBrainsIconKind.ErrorOutline => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/ErrorOutline.svg")
+                },
+                JetBrainsIconKind.ErrorOutlineDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/ErrorOutlineDark.svg")
+                },
                 JetBrainsIconKind.ExceptionAnalyzer => new List<JetBrainsIconData>
                 {
                     new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/ToolWindows/ExceptionAnalyzer.svg")
@@ -411,6 +443,30 @@ namespace JetBrains.Icons
                 {
                     new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/ToolWindows/GradleDark.svg")
                 },
+                JetBrainsIconKind.GroupByMethod => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Actions/GroupByMethod.svg")
+                },
+                JetBrainsIconKind.GroupByMethodDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Actions/GroupByMethodDark.svg")
+                },
+                JetBrainsIconKind.GroupByModule => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Actions/GroupByModule.svg")
+                },
+                JetBrainsIconKind.GroupByModuleDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Actions/GroupByModuleDark.svg")
+                },
+                JetBrainsIconKind.GroupByTestProduction => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Actions/GroupByTestProduction.svg")
+                },
+                JetBrainsIconKind.GroupByTestProductionDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Actions/GroupByTestProductionDark.svg")
+                },
                 JetBrainsIconKind.Groups => new List<JetBrainsIconData>
                 {
                     new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/General/Groups.svg")
@@ -474,6 +530,30 @@ namespace JetBrains.Icons
                 JetBrainsIconKind.ImportDark => new List<JetBrainsIconData>
                 {
                     new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/General/ImportDark.svg")
+                },
+                JetBrainsIconKind.Info => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/Info.svg")
+                },
+                JetBrainsIconKind.InfoDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/InfoDark.svg")
+                },
+                JetBrainsIconKind.InfoOutline => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/InfoOutline.svg")
+                },
+                JetBrainsIconKind.InfoOutlineDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/InfoOutlineDark.svg")
+                },
+                JetBrainsIconKind.InformationDialog => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/InformationDialog.svg")
+                },
+                JetBrainsIconKind.InformationDialogDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/InformationDialogDark.svg")
                 },
                 JetBrainsIconKind.JupyterToolWindow => new List<JetBrainsIconData>
                 {
@@ -683,6 +763,38 @@ namespace JetBrains.Icons
                 {
                     new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/General/PinDark.svg")
                 },
+                JetBrainsIconKind.PlayBack => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Actions/PlayBack.svg")
+                },
+                JetBrainsIconKind.PlayBackDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Actions/PlayBackDark.svg")
+                },
+                JetBrainsIconKind.PlayFirst => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Actions/PlayFirst.svg")
+                },
+                JetBrainsIconKind.PlayFirstDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Actions/PlayFirstDark.svg")
+                },
+                JetBrainsIconKind.PlayForward => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Actions/PlayForward.svg")
+                },
+                JetBrainsIconKind.PlayForwardDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Actions/PlayForwardDark.svg")
+                },
+                JetBrainsIconKind.PlayLast => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Actions/PlayLast.svg")
+                },
+                JetBrainsIconKind.PlayLastDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Actions/PlayLastDark.svg")
+                },
                 JetBrainsIconKind.PluginUpdate => new List<JetBrainsIconData>
                 {
                     new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/General/PluginUpdate.svg")
@@ -739,6 +851,14 @@ namespace JetBrains.Icons
                 {
                     new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/ToolWindows/ProjectDark.svg")
                 },
+                JetBrainsIconKind.ProjectDirectory => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Actions/ProjectDirectory.svg")
+                },
+                JetBrainsIconKind.ProjectDirectoryDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Actions/ProjectDirectoryDark.svg")
+                },
                 JetBrainsIconKind.ProjectStructure => new List<JetBrainsIconData>
                 {
                     new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/General/ProjectStructure.svg")
@@ -778,6 +898,14 @@ namespace JetBrains.Icons
                 JetBrainsIconKind.PythonConsoleToolWindowDark => new List<JetBrainsIconData>
                 {
                     new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/ToolWindows/PythonConsoleToolWindowDark.svg")
+                },
+                JetBrainsIconKind.QuestionDialog => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/QuestionDialog.svg")
+                },
+                JetBrainsIconKind.QuestionDialogDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/QuestionDialogDark.svg")
                 },
                 JetBrainsIconKind.Redo => new List<JetBrainsIconData>
                 {
@@ -1023,6 +1151,30 @@ namespace JetBrains.Icons
                 {
                     new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/ToolWindows/StructureDark.svg")
                 },
+                JetBrainsIconKind.Success => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/Success.svg")
+                },
+                JetBrainsIconKind.SuccessDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/SuccessDark.svg")
+                },
+                JetBrainsIconKind.SuccessDialog => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/SuccessDialog.svg")
+                },
+                JetBrainsIconKind.SuccessDialogDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/SuccessDialogDark.svg")
+                },
+                JetBrainsIconKind.SuccessLogin => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/SuccessLogin.svg")
+                },
+                JetBrainsIconKind.SuccessLoginDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/SuccessLoginDark.svg")
+                },
                 JetBrainsIconKind.Task => new List<JetBrainsIconData>
                 {
                     new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/ToolWindows/Task.svg")
@@ -1046,6 +1198,14 @@ namespace JetBrains.Icons
                 JetBrainsIconKind.TodoDark => new List<JetBrainsIconData>
                 {
                     new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/ToolWindows/TodoDark.svg")
+                },
+                JetBrainsIconKind.ToggleVisibility => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Actions/ToggleVisibility.svg")
+                },
+                JetBrainsIconKind.ToggleVisibilityDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Actions/ToggleVisibilityDark.svg")
                 },
                 JetBrainsIconKind.Transfer => new List<JetBrainsIconData>
                 {
@@ -1102,6 +1262,30 @@ namespace JetBrains.Icons
                 JetBrainsIconKind.VcsDark => new List<JetBrainsIconData>
                 {
                     new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/General/VcsDark.svg")
+                },
+                JetBrainsIconKind.Warning => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/Warning.svg")
+                },
+                JetBrainsIconKind.WarningDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/WarningDark.svg")
+                },
+                JetBrainsIconKind.WarningDialog => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/WarningDialog.svg")
+                },
+                JetBrainsIconKind.WarningDialogDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/WarningDialogDark.svg")
+                },
+                JetBrainsIconKind.WarningOutline => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/WarningOutline.svg")
+                },
+                JetBrainsIconKind.WarningOutlineDark => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons/Assets/Icons/Status/WarningOutlineDark.svg")
                 },
                 JetBrainsIconKind.Web => new List<JetBrainsIconData>
                 {
