@@ -19,13 +19,25 @@ namespace BuildTasks
                 foreach (var filePath in Directory.GetFiles(SourceDirectory, "*.svg", SearchOption.AllDirectories))
                 {
                     var fileName = Path.GetFileName(filePath);
-                    var modifiedName = fileName.Replace("_dark", "Dark");
+                    var directoryName = new DirectoryInfo(Path.GetDirectoryName(filePath)).Name;
 
-                    // Ensure the first character is uppercase
-                    if (modifiedName.Length > 0)
+                    // Ensure the first character of the directory name is uppercase
+                    if (directoryName.Length > 0)
                     {
-                        modifiedName = char.ToUpper(modifiedName[0]) + modifiedName.Substring(1);
+                        directoryName = char.ToUpper(directoryName[0]) + directoryName.Substring(1);
                     }
+
+                    // Generate new file name with the directory name appended
+                    var baseFileName = Path.GetFileNameWithoutExtension(fileName);
+                    var extension = Path.GetExtension(fileName);
+
+                    var modifiedName = baseFileName.Replace("_dark", "Dark");
+                    if (!modifiedName.Contains(directoryName))
+                    {
+                        modifiedName = $"{modifiedName}_{directoryName}";
+                    }
+
+                    modifiedName += extension;
 
                     var newFilePath = Path.Combine(Path.GetDirectoryName(filePath), modifiedName);
 

@@ -24,7 +24,17 @@ namespace BuildTasks
 
                 var iconNames = svgFiles
                     .Select(filePath => Path.GetFileNameWithoutExtension(filePath))
-                    .Select(name => name.Replace("-", "_").Replace(" ", "_").Replace("@20x20", "Bold")) // Replace special characters with _
+                    .Select(name => name.Replace("-", "_")
+                        .Replace(" ", "_")
+                        .Replace("_v2", "V2")
+                        .Replace("@16x16", "16")
+                        .Replace("@20x20", "20") // Replace special characters with
+                        .Replace("@14x14", "14") // Replace special characters with
+                        .Replace("@12x12", "12") // Replace special characters with
+                        .Replace("@24x24", "24") // Replace special characters with
+                        .Replace("@34x34", "34") // Replace special characters with
+                        .Replace("@64x64", "64") // Replace special characters with
+                        .Replace("+", "Plus")) // Replace special characters with
                     .Distinct()
                     .OrderBy(name => name)
                     .ToList();

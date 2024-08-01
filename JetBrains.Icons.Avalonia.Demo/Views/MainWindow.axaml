@@ -7,7 +7,7 @@
         mc:Ignorable="d" d:DesignWidth="300" d:DesignHeight="300"
         x:Class="JetBrains.Icons.Avalonia.Demo.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
-        Background="DarkSlateGray"
+        Background="#1E1F22"
         Icon="/Assets/avalonia-logo.ico"
         Title="JetBrains.Icons.Avalonia.Demo">
 
@@ -18,7 +18,7 @@
     </Design.DataContext>
     <!--  <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/> -->
      <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-         <avalonia:JetBrainsIcon Kind="SuccessDialogDark" Width="32" Height="32" /> 
+         <avalonia:JetBrainsIcon Kind="CppDark_Cidr" Width="64" Height="64" /> 
     </StackPanel>
    
     
