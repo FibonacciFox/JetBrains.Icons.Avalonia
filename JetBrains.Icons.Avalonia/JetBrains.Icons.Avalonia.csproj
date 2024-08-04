@@ -9,6 +9,7 @@
         <Authors>FibonacciFox</Authors>
         <Description>Avalonia control for display JetBrains icons from JetBrains.Icons</Description>
         <PackageProjectUrl>https://github.com/FibonacciFox/JetBrains.Icons.Avalonia</PackageProjectUrl>
+        <PackageId>FibonacciFox.JetBrains.Icons.Avalonia</PackageId>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/FibonacciFox/JetBrains.Icons.Avalonia</RepositoryUrl>
         <RepositoryType>Git</RepositoryType>

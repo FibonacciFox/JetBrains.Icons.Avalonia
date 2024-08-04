@@ -1,5 +1,4 @@
-[wpf-nuget]: https://www.nuget.org/packages/Material.Icons.WPF/
-[avalonia-nuget]: https://www.nuget.org/packages/JetBrains.Icons.Avalonia/
+[avalonia-nuget]: https://www.nuget.org/packages/FibonacciFox.JetBrains.Icons.Avalonia/
 
 # JetBrains.Icons.Avalonia
 
@@ -17,12 +16,13 @@ The library is taken as a basis [Material.Icons](https://github.com/SKProCH/Mate
 
 ## Avalonia
 #### Getting started
-1. Install [Material.Icons.Avalonia nuget package](https://www.nuget.org/packages/JetBrains.Icons.Avalonia/):
+1. Install [JetBrains.Icons.Avalonia nuget package](https://www.nuget.org/packages/FibonacciFox.JetBrains.Icons.Avalonia/):
     ```shell
     dotnet add package JetBrains.Icons.Avalonia
     ```
-   [![avalonia-nuget](https://img.shields.io/nuget/v/JetBrains.Icons.Avalonia?label=JetBrains.Icons.Avalonia&style=flat-square)][avalonia-nuget]
-   [![avalonia-nuget](https://img.shields.io/nuget/dt/JetBrains.Icons.Avalonia?color=blue&label=Downloads&style=flat-square)][avalonia-nuget]
+   [![avalonia-nuget](https://img.shields.io/nuget/v/FibonacciFox.JetBrains.Icons.Avalonia?label=JetBrains.Icons.Avalonia&style=flat-square)][avalonia-nuget]
+   [![avalonia-nuget](https://img.shields.io/nuget/dt/FibonacciFox.JetBrains.Icons.Avalonia?color=blue&label=Downloads&style=flat-square)][avalonia-nuget]
+
 2. Include styles in `App.xaml` (for `2.0.0` version and higher):
     ```xaml
     <Application xmlns:jetBrainsIcons="clr-namespace:JetBrains.Icons.Avalonia;assembly=JetBrains.Icons.Avalonia" 
@@ -54,8 +54,8 @@ Also, there is `MaterialIconExt` which allows you to use is as the markup extens
     ```shell
     dotnet add package JetBrains.Icons.Avalonia
     ```
-   [![avalonia-nuget](https://img.shields.io/nuget/v/JetBrains.Icons.Avalonia?label=JetBrains.Icons.Avalonia&style=flat-square)][avalonia-nuget]
-   [![avalonia-nuget](https://img.shields.io/nuget/dt/JetBrains.Icons.Avalonia?color=blue&label=Downloads&style=flat-square)][avalonia-nuget]
+   [![avalonia-nuget](https://img.shields.io/nuget/v/FibonacciFox.JetBrains.Icons.Avalonia?label=JetBrains.Icons.Avalonia&style=flat-square)][avalonia-nuget]
+   [![avalonia-nuget](https://img.shields.io/nuget/dt/FibonacciFox.JetBrains.Icons.Avalonia?color=blue&label=Downloads&style=flat-square)][avalonia-nuget]
 2. Import styles in Application (or if you use XAML check instructions for plain Avalonia)
     ```fsharp
     type App() =
