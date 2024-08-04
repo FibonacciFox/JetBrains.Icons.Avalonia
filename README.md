@@ -3,11 +3,17 @@
 
 # JetBrains.Icons.Avalonia
 
-A publicly available [JetBrains Icons](https://jetbrains.github.io/ui/resources/icons_list/) set compiled for the Avalonia UI library.
+![image](https://github.com/FibonacciFox/JetBrains.Icons.Avalonia/blob/master/images/Int%20UI%20Icons%20(Community).png)
+
+A publicly available [JetBrains Icons](https://www.figma.com/design/dDuoqLa6sW4MISvLc4VXQv/Int-UI-Icons-(Community)?node-id=5590-50545&t=WoQ9WTc04dKJvcnu-1) set compiled for the Avalonia UI library.
+
+The library is taken as a basis [Material.Icons](https://github.com/SKProCH/Material.Icons/blob/master/README.md)
 
 - Icon types are **strongly typed** enum, so your **IDE will suggest available variants**:  
 
 - [FAQ](#faq) - frequently asked questions
+
+
 
 ## Avalonia
 #### Getting started
