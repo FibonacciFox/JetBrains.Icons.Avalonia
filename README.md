@@ -100,3 +100,13 @@ Also, there is `MaterialIconExt` which allows you to use is as the markup extens
 - If you are using `JetBrainsIcon` control - use `Width` or/and `Height` properties.
 - If you are using `JetBrainsIconExt` - use `Size` property.
 
+#### Icon naming
+
+![image](https://github.com/FibonacciFox/JetBrains.Icons.Avalonia/blob/master/images/Actions.png)
+
+- There are two versions of icons: for light and dark theme of the application. For example:
+  - ProjectDirectory_Actions\ProjectDirectoryDark_Actions:
+    - ProjectDirectory(icon name)
+    - Dark(used for dark theme of the application)
+    - _Actions(section where the icon is located)
+
