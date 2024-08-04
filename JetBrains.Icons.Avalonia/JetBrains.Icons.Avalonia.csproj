@@ -9,10 +9,7 @@
 
     <ItemGroup>
         <PackageReference Include="Avalonia" Version="11.1.0"/>
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\JetBrains.Icons\JetBrains.Icons.csproj" />
+        <PackageReference Include="Avalonia.Svg.Skia" Version="11.1.0" />
     </ItemGroup>
 
     <ItemGroup>
@@ -21,4 +18,26 @@
       </Compile>
     </ItemGroup>
 
+    <ItemGroup>
+        <AvaloniaResource Include="Assets\**" />
+    </ItemGroup>
+
+    <!-- Использование задачи из сборки
+        <ItemGroup>
+          <ProjectReference Condition="'$(Configuration)' == 'Debug'" Include="..\BuildTasks\BuildTasks.csproj" />
+        </ItemGroup>
+
+    <UsingTask TaskName="BuildTasks.RenameSvgFiles"
+               AssemblyFile="$(MSBuildThisFileDirectory)..\BuildTasks\bin\Debug\netstandard2.0\BuildTasks.dll"/>
+    <UsingTask TaskName="BuildTasks.GenerateJetBrainsIconKindEnum"
+               AssemblyFile="$(MSBuildThisFileDirectory)..\BuildTasks\bin\Debug\netstandard2.0\BuildTasks.dll"/>
+    <UsingTask TaskName="BuildTasks.GenerateJetBrainsIconDataProvider"
+               AssemblyFile="$(MSBuildThisFileDirectory)..\BuildTasks\bin\Debug\netstandard2.0\BuildTasks.dll"/>
+
+    <Target Name="PreBuild" BeforeTargets="Build">
+        <BuildTasks.RenameSvgFiles SourceDirectory="$(MSBuildProjectDirectory)\Assets" />
+        <BuildTasks.GenerateJetBrainsIconKindEnum SourceDirectory="$(MSBuildProjectDirectory)\Assets" OutputFile="$(MSBuildProjectDirectory)\JetBrainsIconKind.cs" />
+        <BuildTasks.GenerateJetBrainsIconDataProvider SourceDirectory="$(MSBuildProjectDirectory)\Assets" OutputFile="$(MSBuildProjectDirectory)\JetBrainsIconDataProviderPart.cs" />
+    </Target> -->
+    
 </Project>
