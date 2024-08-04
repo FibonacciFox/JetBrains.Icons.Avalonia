@@ -29,7 +29,7 @@ The library is taken as a basis [Material.Icons](https://github.com/SKProCH/Mate
                  ...>
       <Application.Styles>
         ...
-        <jetBrainsIcons:MaterialIconStyles />
+          <jetBrainsIcons:JetBrainsIconStyles />
       </Application.Styles>
     </Application>
     ```
