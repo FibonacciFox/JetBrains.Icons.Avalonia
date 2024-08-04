@@ -3,8 +3,8 @@
         xmlns:vm="using:JetBrains.Icons.Avalonia.Demo.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:avalonia="clr-namespace:JetBrains.Icons.Avalonia;assembly=JetBrains.Icons.Avalonia"
-        mc:Ignorable="d" d:DesignWidth="300" d:DesignHeight="300"
+        xmlns:jetBrainsIcons="clr-namespace:JetBrains.Icons.Avalonia;assembly=JetBrains.Icons.Avalonia"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
         x:Class="JetBrains.Icons.Avalonia.Demo.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Background="#1E1F22"
@@ -12,14 +12,34 @@
         Title="JetBrains.Icons.Avalonia.Demo">
 
     <Design.DataContext>
-        <!-- This only sets the DataContext for the previewer in an IDE,
-             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
         <vm:MainWindowViewModel/>
     </Design.DataContext>
-    <!--  <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/> -->
-     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-         <avalonia:JetBrainsIcon Kind="ProjectDirectoryDark_Actions" Width="24" Height="24" /> 
-    </StackPanel>
-   
-    
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBox Text="{Binding SearchText}" Margin="10" Width="200" HorizontalAlignment="Left" Watermark="Search icons..."/>
+        <ScrollViewer Grid.Row="1">
+            <ItemsControl ItemsSource="{Binding FilteredIconKinds}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Border Margin="5" Padding="5" Background="#2D2F31" CornerRadius="3" BorderBrush="#404244" BorderThickness="1"
+                                Width="80" Height="120">
+                            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                                <jetBrainsIcons:JetBrainsIcon Kind="{Binding}" Width="40" Height="40"/>
+                                <TextBlock Text="{Binding}" Margin="5,5,0,0" Foreground="White" HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+        </ScrollViewer>
+    </Grid>
 </Window>

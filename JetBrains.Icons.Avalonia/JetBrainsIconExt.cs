@@ -1,4 +1,5 @@
 
+using System;
 using Avalonia.Markup.Xaml;
 
 namespace JetBrains.Icons.Avalonia {

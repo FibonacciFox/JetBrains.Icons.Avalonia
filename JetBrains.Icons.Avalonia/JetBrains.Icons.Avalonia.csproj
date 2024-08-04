@@ -1,11 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
+    
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
         <LangVersion>default</LangVersion>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>JetBrains.Icons.Avalonia</Title>
+        <Authors>FibonacciFox</Authors>
+        <Description>Avalonia control for display JetBrains icons from JetBrains.Icons</Description>
+        <PackageProjectUrl>https://github.com/FibonacciFox/JetBrains.Icons.Avalonia</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/FibonacciFox/JetBrains.Icons.Avalonia</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <PackageTags>JetBrains icons avalonia</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <Version>1.0.0</Version>
+        <PublicSign>false</PublicSign>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="../README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
 
     <ItemGroup>
         <PackageReference Include="Avalonia" Version="11.1.0"/>
