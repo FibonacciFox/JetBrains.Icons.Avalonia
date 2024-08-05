@@ -12,6 +12,14 @@ namespace JetBrains.Icons.Avalonia
         {
             return kind switch
             {
+                JetBrainsIconKind.AddFile_Actions => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons.Avalonia/Assets/Icons/Actions/AddFile_Actions.svg")
+                },
+                JetBrainsIconKind.AddFileDark_Actions => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons.Avalonia/Assets/Icons/Actions/AddFileDark_Actions.svg")
+                },
                 JetBrainsIconKind.СodeAssistantClass_Cidr => new List<JetBrainsIconData>
                 {
                     new JetBrainsIconData("avares://JetBrains.Icons.Avalonia/Assets/Icons/Cidr/СodeAssistantClass_Cidr.svg")
@@ -6811,6 +6819,14 @@ namespace JetBrains.Icons.Avalonia
                 JetBrainsIconKind.PhpDark_FileTypes_PhpFileTypes => new List<JetBrainsIconData>
                 {
                     new JetBrainsIconData("avares://JetBrains.Icons.Avalonia/Assets/Icons/PHP/PhpFileTypes/PhpDark_FileTypes_PhpFileTypes.svg")
+                },
+                JetBrainsIconKind.PhpIcon_PHP => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons.Avalonia/Assets/Icons/PHP/PhpIcon_PHP.svg")
+                },
+                JetBrainsIconKind.Composer_PHP => new List<JetBrainsIconData>
+                {
+                    new JetBrainsIconData("avares://JetBrains.Icons.Avalonia/Assets/Icons/PHP/Composer_PHP.svg")
                 },
                 JetBrainsIconKind.PhpLocal_PHP => new List<JetBrainsIconData>
                 {

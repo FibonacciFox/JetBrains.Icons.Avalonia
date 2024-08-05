@@ -15,7 +15,8 @@
         <RepositoryType>Git</RepositoryType>
         <PackageTags>JetBrains icons avalonia</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <Version>1.0.0</Version>
+        <PackageReleaseNotes>Updated Readme and added several new icons.</PackageReleaseNotes>
+        <Version>1.0.1</Version>
         <PublicSign>false</PublicSign>
     </PropertyGroup>
 

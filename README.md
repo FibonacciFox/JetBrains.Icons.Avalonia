@@ -2,7 +2,7 @@
 
 # JetBrains.Icons.Avalonia
 
-![image](https://github.com/FibonacciFox/JetBrains.Icons.Avalonia/blob/master/images/Int%20UI%20Icons%20(Community).png)
+![image](https://github.com/FibonacciFox/JetBrains.Icons.Avalonia/blob/master/images/Int%20UI%20Icons%20(Community).png?raw=true)
 
 A publicly available [JetBrains Icons](https://www.figma.com/design/dDuoqLa6sW4MISvLc4VXQv/Int-UI-Icons-(Community)?node-id=5590-50545&t=WoQ9WTc04dKJvcnu-1) set compiled for the Avalonia UI library.
 
@@ -43,7 +43,7 @@ Use `JetBrainsIcon` control:
 <jetBrainsIcons:JetBrainsIcon Kind="HomeDark_Writerside" />
 ```
 
-Also, there is `MaterialIconExt` which allows you to use is as the markup extension:
+Also, there is `JetBrainsIconExt` which allows you to use is as the markup extension:
 ```xaml
 <Button Content="{jetBrainsIcons:JetBrainsIconExt Kind=HomeDark_Writerside}" />
 ```
@@ -66,7 +66,7 @@ Also, there is `MaterialIconExt` which allows you to use is as the markup extens
             this.Styles.Add(JetBrainsIconStyles(null))
             ..
     ```
-3. Create bindings for `MaterialIcon`
+3. Create bindings for `JetBrainsIcon`
     ```fsharp
     namespace Avalonia.FuncUI.DSL
     
@@ -102,7 +102,7 @@ Also, there is `MaterialIconExt` which allows you to use is as the markup extens
 
 #### Icon naming
 
-![image](https://github.com/FibonacciFox/JetBrains.Icons.Avalonia/blob/master/images/Actions.png)
+![image](https://github.com/FibonacciFox/JetBrains.Icons.Avalonia/blob/master/images/Actions.png?raw=true)
 
 - There are two versions of icons: for light and dark theme of the application. For example:
   - ProjectDirectory_Actions\ProjectDirectoryDark_Actions:
