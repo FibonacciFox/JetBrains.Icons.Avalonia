@@ -2,7 +2,7 @@
 
 # JetBrains.Icons.Avalonia
 
-![image](https://github.com/FibonacciFox/JetBrains.Icons.Avalonia/blob/master/images/Int%20UI%20Icons%20(Community).png?raw=true)
+![image](https://raw.githubusercontent.com/FibonacciFox/JetBrains.Icons.Avalonia/master/images/Int%20UI%20Icons%20(Community).png)
 
 A publicly available [JetBrains Icons](https://www.figma.com/design/dDuoqLa6sW4MISvLc4VXQv/Int-UI-Icons-(Community)?node-id=5590-50545&t=WoQ9WTc04dKJvcnu-1) set compiled for the Avalonia UI library.
 
@@ -102,7 +102,7 @@ Also, there is `JetBrainsIconExt` which allows you to use is as the markup exten
 
 #### Icon naming
 
-![image](https://github.com/FibonacciFox/JetBrains.Icons.Avalonia/blob/master/images/Actions.png?raw=true)
+![image](https://raw.githubusercontent.com/FibonacciFox/JetBrains.Icons.Avalonia/master/images/Actions.png?raw=true)
 
 - There are two versions of icons: for light and dark theme of the application. For example:
   - ProjectDirectory_Actions\ProjectDirectoryDark_Actions:
