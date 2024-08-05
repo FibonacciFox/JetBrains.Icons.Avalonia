@@ -18,7 +18,7 @@ The library is taken as a basis [Material.Icons](https://github.com/SKProCH/Mate
 #### Getting started
 1. Install [JetBrains.Icons.Avalonia nuget package](https://www.nuget.org/packages/FibonacciFox.JetBrains.Icons.Avalonia/):
     ```shell
-    dotnet add package JetBrains.Icons.Avalonia
+    dotnet add package FibonacciFox.JetBrains.Icons.Avalonia
     ```
    [![avalonia-nuget](https://img.shields.io/nuget/v/FibonacciFox.JetBrains.Icons.Avalonia?label=JetBrains.Icons.Avalonia&style=flat-square)][avalonia-nuget]
    [![avalonia-nuget](https://img.shields.io/nuget/dt/FibonacciFox.JetBrains.Icons.Avalonia?color=blue&label=Downloads&style=flat-square)][avalonia-nuget]
